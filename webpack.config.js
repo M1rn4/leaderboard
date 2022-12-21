@@ -19,11 +19,6 @@ module.exports = {
         type: 'asset/resource',
       },
       {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: ['babel-loader'],
-      },
-      {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         use: [
           {
