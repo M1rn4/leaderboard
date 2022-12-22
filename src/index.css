@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 html {
   font-size: 62.5%;
 }
+
 body {
   font-family: 'Roboto', sans-serif;
-  background: rgb(240,240,240);
+  background: rgb(240, 240, 240);
 }
+
 main {
   position: fixed;
   width: 90%;
@@ -20,40 +24,46 @@ main {
   border-radius: 5px;
   padding: 30px;
 }
+
 main h1 {
   font-size: 2.8rem;
   margin-bottom: 2rem;
 }
+
 .total {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items:baseline;
+  align-items: baseline;
 }
+
 .scoreView {
   width: 40%;
   display: flex;
   flex-direction: column;
   gap: 10px;
-
 }
-.scoreView ul{
+
+.scoreView ul {
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .formT {
   display: flex;
   flex-direction: column;
   width: 40%;
   gap: 5px 10px;
 }
+
 form {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 button {
   border: 2px solid #150050;
   border-radius: 5px;
@@ -61,25 +71,28 @@ button {
   cursor: pointer;
   color: #150050;
 }
+
 .square {
   height: 45rem;
-  width: 100%; 
+  width: 100%;
   overflow-y: scroll;
   padding: 0 10px;
   border: 2px solid #150050;
-  background-color: rgb(240,240,240);
+  background-color: rgb(240, 240, 240);
 }
+
 .recents {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
+
 input {
   padding: 5px 10px;
   outline: 1px solid #150050;
   height: 35px;
 }
+
 .btn-submit-score {
   width: 70px;
   margin-right: 0;
