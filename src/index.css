@@ -16,10 +16,12 @@ body {
 }
 
 main {
+  left: 1rem;
   position: fixed;
-  width: 90%;
-  height: 90%;
-  background-color: #fff;
+  right: 1rem;
+  bottom: 1rem;
+  top: 1rem;
+  background-color: wheat;
   border: 2px solid #150050;
   border-radius: 5px;
   padding: 30px;
@@ -69,8 +71,9 @@ button {
   border-radius: 5px;
   padding: 5px 5px;
   cursor: pointer;
-  color: #150050;
+  color: wheat;
   box-shadow: 4px 3px;
+  background-color: blue;
 }
 
 .square {
@@ -129,5 +132,9 @@ input {
 }
 
 .gray {
-  background-color: gray;
+  background-color: blue;
+}
+.refreshButton {
+  border-radius: 20px;
+  background-color: blue;
 }
