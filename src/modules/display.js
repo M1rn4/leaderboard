@@ -8,7 +8,7 @@ const display = (array) => {
     } else {
       backgroundColor = 'gray';
     }
-  const scoreTemplate = `
+    const scoreTemplate = `
     <div class="book ${backgroundColor}">
       <p>${array[i].user}&ensp;</p>
       <p>&ensp;${array[i].score}</p>
@@ -16,5 +16,5 @@ const display = (array) => {
            `;
     container.innerHTML += scoreTemplate;
   }
-}
+};
 export default display;

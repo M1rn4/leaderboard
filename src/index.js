@@ -8,7 +8,7 @@ const userInput = document.getElementById('user');
 const scoreInput = document.getElementById('score');
 
 refreshBtn.addEventListener('click', () => {
-  getData(); 
+  getData();
 });
 
 submitBtn.addEventListener('click', async (e) => {
