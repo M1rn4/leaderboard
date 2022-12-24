@@ -122,6 +122,7 @@ input {
 .book {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   height: 2rem;
   font-size: 1.5rem;
   padding: 2px 5px;
@@ -137,4 +138,24 @@ input {
 .refreshButton {
   border-radius: 20px;
   background-color: blue;
+}
+.ovni_1 {
+  background-image: url('./img/ovni_1.png');
+  animation-name: ovni_1_animation;
+  animation-direction: alternate;
+  animation-duration: 53s;
+}
+
+.ovni_2 {
+  background-image: url('./img/ovni_2.png');
+  animation-name: ovni_2_animation;
+  animation-direction: alternate;
+  animation-duration: 41s;
+}
+
+.astronaut {
+  background-image: url('./img/astronaut.png');
+  animation-name: astronaut_animation;
+  animation-direction: alternate;
+  animation-duration: 30s;
 }

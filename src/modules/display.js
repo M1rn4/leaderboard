@@ -8,13 +8,50 @@ const display = (array) => {
     } else {
       backgroundColor = 'gray';
     }
-    const scoreTemplate = `
-    <div class="book ${backgroundColor}">
-      <p>${array[i].user}&ensp;</p>
-      <p>&ensp;${array[i].score}</p>
-    </div>
-           `;
-    container.innerHTML += scoreTemplate;
+    if (i === 0) {
+      const scoreTemplate = `
+      <div class="book ${backgroundColor}">
+        <p>${i}&ensp;</p>
+        <p>${array[i].user}&ensp;</p>
+        <p>&ensp;${array[i].score}</p>
+        <p>&ensp;<i class="fa-solid fa-trophy"></i></p>
+      </div>
+             `;
+      container.innerHTML += scoreTemplate;
+    }
+    if (i === 1) {
+      const scoreTemplate = `
+      <div class="book ${backgroundColor}">
+        <p>${i}&ensp;</p>
+        <p>${array[i].user}&ensp;</p>
+        <p>&ensp;${array[i].score}</p>
+        <p>&ensp;<i class="fa-solid fa-award"></i></p>
+
+      </div>
+             `;
+      container.innerHTML += scoreTemplate;
+    }
+    if (i === 2) {
+      const scoreTemplate = `
+      <div class="book ${backgroundColor}">
+        <p>${i}&ensp;</p>
+        <p>${array[i].user}&ensp;</p>
+        <p>&ensp;${array[i].score}</p>
+        <p>&ensp;<i class="fa-solid fa-tags"></i></p>
+      </div>
+             `;
+      container.innerHTML += scoreTemplate;
+    }
+    if (i > 2) {
+      const scoreTemplate = `
+      <div class="book ${backgroundColor}">
+        <p>${i}&ensp;</p>
+        <p>${array[i].user}&ensp;</p>
+        <p>&ensp;${array[i].score}</p>
+      </div>
+             `;
+      container.innerHTML += scoreTemplate;
+    }
   }
 };
 export default display;
