@@ -77,7 +77,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[You can see our live demo](https://m1rn4.github.io/toDoList/dist/)
+[You can see our live demo](https://m1rn4.github.io/leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,7 +100,7 @@ Clone this repository to your desired folder:
 
 - Choose a directory
 - Open a Terminal
-- write: git clone [here](https://github.com/M1rn4/toDoList.git)
+- write: git clone [here](https://github.com/M1rn4/leaderboard.git)
 
 ### Install
 
@@ -120,7 +120,7 @@ To run the project, execute the following command:
 
 You can deploy this project using:
 
-[Deploy](https://m1rn4.github.io/toDoList/dist/)
+[Deploy](https://m1rn4.github.io/leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,7 +152,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/M1rn4/toDoList/issues).
+Feel free to check the [issues page](https://github.com/M1rn4/leaderboard/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
