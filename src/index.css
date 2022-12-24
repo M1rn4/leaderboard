@@ -135,10 +135,12 @@ input {
 .gray {
   background-color: blue;
 }
+
 .refreshButton {
   border-radius: 20px;
   background-color: blue;
 }
+
 .ovni_1 {
   background-image: url('./img/ovni_1.png');
   animation-name: ovni_1_animation;
