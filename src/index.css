@@ -16,10 +16,12 @@ body {
 }
 
 main {
+  left: 1rem;
   position: fixed;
-  width: 90%;
-  height: 90%;
-  background-color: #fff;
+  right: 1rem;
+  bottom: 1rem;
+  top: 1rem;
+  background-color: wheat;
   border: 2px solid #150050;
   border-radius: 5px;
   padding: 30px;
@@ -69,8 +71,9 @@ button {
   border-radius: 5px;
   padding: 5px 5px;
   cursor: pointer;
-  color: #150050;
+  color: wheat;
   box-shadow: 4px 3px;
+  background-color: blue;
 }
 
 .square {
@@ -119,6 +122,7 @@ input {
 .book {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   height: 2rem;
   font-size: 1.5rem;
   padding: 2px 5px;
@@ -129,5 +133,31 @@ input {
 }
 
 .gray {
-  background-color: gray;
+  background-color: blue;
+}
+
+.refreshButton {
+  border-radius: 20px;
+  background-color: blue;
+}
+
+.ovni_1 {
+  background-image: url('./img/ovni_1.png');
+  animation-name: ovni_1_animation;
+  animation-direction: alternate;
+  animation-duration: 53s;
+}
+
+.ovni_2 {
+  background-image: url('./img/ovni_2.png');
+  animation-name: ovni_2_animation;
+  animation-direction: alternate;
+  animation-duration: 41s;
+}
+
+.astronaut {
+  background-image: url('./img/astronaut.png');
+  animation-name: astronaut_animation;
+  animation-direction: alternate;
+  animation-duration: 30s;
 }
